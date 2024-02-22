@@ -96,7 +96,10 @@ a {
     margin: auto;
     text-align: center;
 }
-
+footer {
+    color: rgb(65, 111, 31);
+    text-align: center;
+}
 
 /* Media query for tablets */
 @media only screen and (min-width: 600px) {
