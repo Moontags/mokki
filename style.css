@@ -15,7 +15,7 @@ header {
 
 .box {
   
-    font-family: cursive;
+    font-family: 'cursive', Arial, Helvetica, sans-serif;
     width: 100px;
     height: 48px;
     text-align: center;
@@ -35,10 +35,10 @@ section {
     justify-content: center;
     align-items: center;
     padding: auto;
-    font-size: 22px;
     font-family:Georgia, 'Times New Roman', Times, serif;
     overflow: hidden;
    
+
     
 }
 
@@ -47,7 +47,7 @@ img {
     width: 22em;
     margin: 1rem;
     border-radius: 4px;
-    justify-content: space-around;
+   
    
     
 }
@@ -92,4 +92,25 @@ a {
     background-repeat: no-repeat;
     overflow: hidden;
     
+}
+
+.main-text {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+
+
+/* Media query for tablets */
+@media only screen and (min-width: 600px) {
+    body {
+        font-size: 18px;
+    }
+}
+
+/* Media query for desktops */
+@media only screen and (min-width: 1024px) {
+    body {
+        font-size: 20px;
+    }
 }
