@@ -93,11 +93,30 @@ h2 {
 
 a {
     color: rgb(250, 68, 168);
+    text-shadow: 1px 1px 1px white;
     background-color: rgba(11, 11, 11, 0.3);
+    display: inline-block;
     border-radius: 4px;
-    font-size: 1.4rem;
-   
-   
+    font-size: 1.4rem;   
+    text-decoration: none;
+}
+
+a:hover {
+    color: aliceblue;
+}
+
+.links::after {
+   content: '';
+   display: block;
+   width: 0;
+   height: 2px;
+   background: #fff;
+   transition: width 0.6s;
+}
+
+.links:hover::after {
+    width: 100%;
+    transition: width 0.6s;
 }
 
 .head {
