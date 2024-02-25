@@ -25,6 +25,7 @@ header {
     margin-bottom: 0;
     padding-top: 18rem;
     flex-wrap: wrap;
+  
     
 
 }
@@ -114,7 +115,7 @@ a {
     text-shadow: 1px 1px 1px white;
     display: inline-block;
     border-radius: 4px;
-    font-size: 1.4rem;   
+    font-size: 1.5rem;   
     text-decoration: none;
     
 }
