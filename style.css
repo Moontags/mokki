@@ -15,16 +15,16 @@ header {
 }
 
 .box {
-  
+    display: flex;
     font-family: 'cursive', Arial, Helvetica, sans-serif;
-    width: 100px;
+    justify-content: center;
+    width: 80px;
     height: 48px;
     text-align: center;
     font-size: 26px;
     margin-bottom: 0;
     padding-top: 18rem;
     flex-wrap: wrap;
-   
     
 
 }
@@ -116,6 +116,7 @@ a {
     border-radius: 4px;
     font-size: 1.4rem;   
     text-decoration: none;
+    
 }
 
 a:hover {
