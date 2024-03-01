@@ -63,11 +63,12 @@ section {
 
 img {
     width: 440px;
-    height: 360px;
+    max-width: 100%;
+    height: auto;
     margin: 4px;
     border-radius: 4px;
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap:wrap-reverse;
     
       
 }
@@ -153,7 +154,8 @@ a:hover {
 .main-text {
     width: 80%;
     margin: auto;
-    text-align: center;
+    text-align: left;
+    line-height: 1.5;
 }
 footer {
     color: rgb(65, 111, 31);
