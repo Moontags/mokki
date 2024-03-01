@@ -62,10 +62,10 @@ section {
 
 
 img {
-    width: 380px;
+    width: 24rem;
     max-width: 100%;
     height: auto;
-    margin: 4px;
+    margin: 2px;
     border-radius: 4px;
     display: flex;
     flex-wrap:wrap-reverse;
@@ -152,7 +152,7 @@ a:hover {
 }
 
 .main-text {
-    width: 80%;
+    width: 84%;
     margin: auto;
     text-align: left;
     line-height: 1.5;
